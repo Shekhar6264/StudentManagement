@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/students";
+const API_URL = "https://studentmanagement-8-ivj5.onrender.com/api/students";
 
 const StudentForm = ({ fetchStudents, editingStudent, setEditingStudent }) => {
   const [form, setForm] = useState({

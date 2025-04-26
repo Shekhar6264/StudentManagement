@@ -3,7 +3,7 @@ import axios from "axios";
 import StudentCard from "../components/StudentCard";
 import StudentForm from "../components/StudentForm";
 
-const API_URL = "http://localhost:5000/api/students";
+const API_URL = "https://studentmanagement-8-ivj5.onrender.com/api/students";
 
 const Dashboard = () => {
   const [students, setStudents] = useState([]);
